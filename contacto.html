@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/stylesnor.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="navSection">
+        <section>
+            <h2 id="#inicio" class="logo"><a href="index.html"><i>BACKOF( );</i></a></h2>
+            <!-- <img src="https://placeimg.com/720/720/tech" alt="logo" width="300px" height="200px"> -->
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="conocenos.html">Conocenos</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="testimonios.html">Testimonios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Contactanos</h2>
+    <section class="contacSect">
+        
+        <div class="form">
+            
+            <h3>Por favor dejanos tus datos, te contactaremos lo antes posbile</h3>
+            <form action= "contacto.php" method="get">
+            
+                <label for="texto">Nombre</label>
+                <input type="text" placeholder="Ingresa tu nombre" value="" name="texto" required>
+                <br>
+                <br>
+                <label for="mail">Email</label>
+                <input type="email" placeholder="Entrada de correo" value="" name="mail"required>
+                <br>
+                <br>
+                <label for="mensaje">Escribe tu consulta</label>
+                <br>
+                <textarea name="mensaje" cols="40" rows="4" minlength="5" maxlength="200" ></textarea>
+                <br>
+                <br>
+                <label for="">Seleccione el servio de interes</label>
+                <br>
+                <br>
+                <select>
+                    <option>Consultoria</option>
+                    <option>Desarrollo de sofware a la medida</option>
+                    <option>Diseño, desarollo e implementacion de sitios</option>
+                </select>
+                <br>
+                <br>
+                <label for="">¿Desea recibir informacion de promociones?</label>
+                <input type="checkbox" id="rojo"><label for="rojo"></label>
+                <br>
+                <br>
+                <input class="estBtn" type="reset" value="Limpiar Formulario">
+                <input class="estBtn" type="submit" value="Enviar ">
+        </form>
+        </div>
+        <div class="contacSect_map">
+            <h3>Ubicación</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.3807978368727!2d-99.09402488561841!3d19.395946146878895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fc2e3efc321b%3A0xabf8454acb3a3a99!2sUPIICSA%20%E2%80%93%20Unidad%20Profesional%20Interdisciplinaria%20de%20Ingenier%C3%ADa%20y%20Ciencias%20Sociales%20y%20Administrativas%20IPN!5e0!3m2!1ses-419!2smx!4v1617245516379!5m2!1ses-419!2smx" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div> 
+    </section>
+    <!-- Footer aplicado en cada pagina de la web -->
+    <footer>Diseñado por <a href="https://www.linkedin.com/in/fernando-guzman-montes-a80b7a13b/" target="_blank" >Fernando GMontes</a> Todos los derechos reservados 2021</footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>

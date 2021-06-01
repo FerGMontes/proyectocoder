@@ -1,0 +1,140 @@
+h1 {
+  color: #A8CBEC; }
+
+h2 {
+  color: darkblue; }
+
+h3 {
+  color: #2c5db8; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: whitesmoke; }
+
+body {
+  /* background-color: rgb(225, 244, 245); */ }
+
+footer {
+  background-color: cadetblue;
+  text-align: center;
+  color: whitesmoke;
+  /* margin: rem; */
+  padding: 1rem;
+  margin: 1rem auto 0 auto; }
+
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", "Sans Serif";
+  height: 100%; }
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 5rem; }
+
+h2 {
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 1rem; }
+
+h3 {
+  margin: 1rem; }
+
+li {
+  list-style: none;
+  padding: 0.5rem; }
+
+/* table {
+    border: 2px solid;
+}
+
+th {
+    color: rgb(64, 70, 124);
+    background-color: rgb(147, 192, 243);
+    border: 1px solid;
+}
+
+tr, td {
+    border: 1px solid;
+} */
+nav {
+  /* display: inline-block; */ }
+
+ul {
+  display: flex;
+  /* justify-content: flex-end; */ }
+
+ul li a:hover {
+  background-color: darkblue;
+  color: white;
+  padding: 1rem; }
+
+.contacSect {
+  display: flex;
+  flex: 1;
+  justify-content: space-around; }
+
+.imgInt {
+  border: 3px solid #4c4ce6;
+  border-radius: 6px; }
+
+.navSection_logo {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  /* color: white; */ }
+
+.navSection_logo:hover {
+  transition: 3s;
+  font-size: 2rem; }
+
+.contacSect_map {
+  display: flex;
+  flex-direction: column; }
+
+.testPersonas {
+  display: flex; }
+
+.serviceContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* grid-auto-rows: 2rem; */ }
+
+.descriptionTextServ {
+  padding: 2rem;
+  text-align: justify;
+  font-size: 1rem; }
+
+.techCarrousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+/* Media Query para celulares */
+.navSection {
+  background: linear-gradient(90deg, #020024 0%, #090979 27%, #00d4ff 100%); }
+
+.navSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 0.5rem;
+  background: linear-gradient(90deg, #020024 0%, #090979 27%, #00d4ff 100%); }
+
+.integSect {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-items: center;
+  /* align-items: center; */
+  /* justify-content: center; */ }
