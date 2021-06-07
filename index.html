@@ -14,41 +14,48 @@
 </head>
 <body>
     <main>
-        <header class="navSection">
-                <div>
-                    <h2 id="#inicio" class="navSection_logo"><a href="#inicio"><i>BACKOF( );</i></a></h2>
-                <!-- <img src="https://placeimg.com/720/720/tech" alt="logo" width="300px" height="200px"> -->
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="conocenos.html">Conocenos</a></li>
-                        <li><a href="Servicios.html">Servicios</a></li>
-                        <li><a href="testimonios.html">Testimonios</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </nav>
-            
-        </header>
-        <article class="descriptionSection">
-            <div class="imgOpacity">
-                <div class="descriptionSection_Page">
-                    <h1>BACKOF Sistemas e Innovación jeje</h1>
-                    <p class="descriptionSection_Hero">Somos una empresa dedicada al desarrollo de soluciones tecnologicas.....Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure iste repellendus voluptatum, libero nemo eos harum atque magnam ut laborum culpa aut officiis vero eligendi aperiam reiciendis ullam corrupti odit commodi dolore alias! Distinctio iste voluptates in aut numquam esse blanditiis, odit tenetur earum? Veniam vero quos sit perspiciatis, recusandae autem ratione consectetur similique assumenda officia ipsum facilis sed? Id veritatis, obcaecati dolorum consectetur facilis ea ducimus ipsum ex, inventore in sint, quas beatae nobis delectus aliquid tempore dolor quia consequatur facere aspernatur repellendus quaerat assumenda. Dolorum ex aliquid corrupti, fuga nemo iste saepe, est modi omnis tempore ullam sint illo asperiores, id odio quia voluptatibus pariatur.</p>
-                    <a id="btnIndex" href="conocenos.html">Conoce más</a>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navSection sticky-top navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand navSection_logo"  href="index.html"><i>BACKOF( );</i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <div class="text-center">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="conocenos.html">Conocenos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="testimonios.html">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div> 
             </div>
+          </div>
+        </nav>
+      <section id="inicio" class="home">
+        <article class="hero-image">
+            <aside class="hero-image-opacity"  > 
+                 <div class="descriptionSection_Page">
+                  <h1>BACKOF Sistemas e Innovación </h1>
+                     <p class="descriptionSection_Hero">Somos una empresa dedicada al desarrollo de soluciones tecnologicas.....Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure iste repellendus voluptatum, libero nemo eos harum atque magnam ut laborum culpa aut officiis vero eligendi aperiam reiciendis ullam corrupti odit commodi dolore alias! Distinctio iste voluptates in aut numquam esse blanditiis, odit tenetur earum? Veniam vero quos sit perspiciatis, recusandae autem ratione consectetur similique assumenda officia ipsum facilis sed? Id veritatis, obcaecati dolorum consectetur facilis ea ducimus ipsum ex, inventore in sint, quas beatae nobis delectus aliquid tempore dolor quia consequatur facere aspernatur repellendus quaerat assumenda. Dolorum ex aliquid corrupti, fuga nemo iste saepe, est modi omnis tempore ullam sint illo asperiores, id odio quia voluptatibus pariatur.
+                     </p>
+                     <a id="btnIndex" href="conocenos.html">Conoce más</a>
+                 </div>
+            </aside>
         </article>
+    </section>
         <h2>Usamos las teconologias más demandadas</h2>
-        <!-- <section class="techCarrousel">
-            
-           
-            <img class="imgSize" src="img/css-3-logo-svgrepo-com.svg" alt="css logo">
-            <img class="imgSize" src="img/html-svgrepo-com.svg" alt="html-logo">
-            <img class="imgSize" src="img/javascript-logo-svgrepo-com.svg" alt="javaScript logo">
-            <img class="imgSize" src="img/mysql-logo-svgrepo-com.svg" alt="mysql logo">
-            <img class="imgSize" src="img/php-svgrepo-com.svg" alt="php logo">
-        </section> -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -77,9 +84,35 @@
             </a>
           </div>
         <h2>Algunos de nuestros clientes</h2>
-        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/css-3-logo-svgrepo-com.svg" class="d-block w-100 imgSize" alt="css logo">
+            </div>
+            <div class="carousel-item">
+              <img src="img/html-svgrepo-com.svg" class="d-block w-100 imgSize" alt="html-logo">
+            </div>
+            <div class="carousel-item">
+              <img src="img/javascript-logo-svgrepo-com.svg" class="d-block w-100 imgSize" alt="javaScript logo">
+            </div>
+            <div class="carousel-item">
+              <img src="img/mysql-logo-svgrepo-com.svg" class="d-block w-100 imgSize" alt="mysql logo">
+            </div>
+            <div class="carousel-item">
+              <img src="img/php-svgrepo-com.svg" class="d-block w-100 imgSize" alt="php logo">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
         </section>
-        <div class="container" >
+        <div class="container text-center" >
           <h2>Contrare Ahora</h2>
           <!-- Button to Open the Modal -->
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
