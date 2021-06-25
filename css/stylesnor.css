@@ -108,6 +108,7 @@ h3{
 .descriptionSection_Page {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center; 
     font-size: 2rem;
 }
@@ -137,8 +138,8 @@ h3{
 
 .descriptionSection_Hero {
     color: #ffffff;
-    width: 50rem;
-    height: 20rem;
+    /* min-width: 50rem;
+    min-height: 20rem; */
     margin: 2rem;
     text-align: justify;
     font-size: 1rem;
@@ -311,6 +312,11 @@ h3{
         justify-content: space-around;
     
     }
+    .social_media{
+        margin: 1.1rem;
+        justify-content: center;
+    }
+    
 }
 
 

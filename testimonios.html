@@ -45,22 +45,93 @@
     <section class="testPersonas">
         <div>
             <h3>Adrian Fuentes, MyDear Pets</h3>
-            <blockquote class="descriptionText"><i>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maiores, et neque, exercitationem veritatis nemo itaque, hic tenetur sed nihil quaerat. Unde eaque maiores in, fugiat nostrum neque repudiandae velit quos rem dolorem ex molestias nemo rerum animi commodi accusamus voluptatem eos impedit soluta odio doloribus explicabo, corrupti quasi amet."</i> </blockquote>
+            <blockquote class="descriptionText"><i>Creativos que supieron captar perfectamente la idea de lo que queríamos hacer. Intuitivos porque con una idea que les trasladamos supieron ampliar y trasladar al trabajo que han desempeñado. Hablan algo y escuchan mucho. Nosotros estamos contentos con Distintiva porque les consideramos unos buenos profesionales.</i> </blockquote>
         </div>
         <div>
             <h3>José Lopez, Electronic Store</h3>
-            <blockquote class="descriptionText"><i>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maiores, et neque, exercitationem veritatis nemo itaque, hic tenetur sed nihil quaerat. Unde eaque maiores in, fugiat nostrum neque repudiandae velit quos rem dolorem ex molestias nemo rerum animi commodi accusamus voluptatem eos impedit soluta odio doloribus explicabo, corrupti quasi amet."</i> </blockquote>
+            <blockquote class="descriptionText"><i>El diseño se ajusta totalmente a lo que buscamos. Una imagen atractiva y limpia en un diseño funcional, cómodo e intuitivo. Todo con una atención personalizada gracias a la cual se han podido entender las necesidades de mi despacho.</i> </blockquote>
         </div>
         <div>
             <h3>Pablo Hernandez, Asientos PRECOM</h3>
-            <blockquote class="descriptionText"><i>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maiores, et neque, exercitationem veritatis nemo itaque, hic tenetur sed nihil quaerat. Unde eaque maiores in, fugiat nostrum neque repudiandae velit quos rem dolorem ex molestias nemo rerum animi commodi accusamus voluptatem eos impedit soluta odio doloribus explicabo, corrupti quasi amet."</i> </blockquote>
+            <blockquote class="descriptionText"><i>Nuestra experiencia fue totalmente satisfactoria.
+              En todo momento se preocuparon por identificar nuestras necesidades y adaptarse a ellas y nuestros plazos lo máximo posible. Lo que más valoramos de todo el proceso de la creación de página Web de nuestra sociedad, así como del mantenimiento posterior. </i> </blockquote>
         </div>
         <div>
             <h3>Andres Lopez, BOA</h3>
-            <blockquote class="descriptionText"><i>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur maiores, et neque, exercitationem veritatis nemo itaque, hic tenetur sed nihil quaerat. Unde eaque maiores in, fugiat nostrum neque repudiandae velit quos rem dolorem ex molestias nemo rerum animi commodi accusamus voluptatem eos impedit soluta odio doloribus explicabo, corrupti quasi amet."</i> </blockquote>
+            <blockquote class="descriptionText"><i>Combinan de forma eficaz creatividad, conocimientos tecnológicos y asesoramiento sobre el mundo online. Te ayudan a resolver las cuestiones principales cuando quieres iniciar tu actividad en la red. El proyecto se desarrolló según los pasos previstos y aunque los plazos se dilataron el resultado mereció la pena.</i> </blockquote>
         </div>
         
     </section>
+    <div class="container text-center" >
+          <h2>Contrare Ahora</h2>
+          <!-- Button to Open the Modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+            Click aqui
+          </button>
+        
+          <!-- The Modal -->
+          <div class="modal" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+              
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Contrare Ahora</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                  <div class="form">
+            
+                    <h3>Por favor dejanos tus datos, te contactaremos lo antes posbile</h3>
+                    <form action= "contacto.php" method="get">
+                    
+                        <label for="texto">Nombre</label>
+                        <input type="text" placeholder="Ingresa tu nombre" value="" name="texto" required>
+                        <br>
+                        <br>
+                        <label for="mail">Email</label>
+                        <input type="email" placeholder="Entrada de correo" value="" name="mail"required>
+                        <br>
+                        <br>
+                        <label for="mensaje">Escribe tu consulta</label>
+                        <br>
+                        <textarea name="mensaje" cols="40" rows="4" minlength="5" maxlength="200" ></textarea>
+                        <br>
+                        <br>
+                        <label for="">Seleccione el servio de interes</label>
+                        <br>
+                        <br>
+                        <select>
+                            <option>Consultoria</option>
+                            <option>Desarrollo de sofware a la medida</option>
+                            <option>Diseño, desarollo e implementacion de sitios</option>
+                        </select>
+                        <br>
+                        <br>
+                        <label for="">¿Desea recibir informacion de promociones?</label>
+                        <input type="checkbox" id="rojo"><label for="rojo"></label>
+                        <br>
+                        <br>
+                        <input class="estBtn" type="reset" value="Limpiar Formulario">
+                        <input class="estBtn" type="submit" value="Enviar ">
+                </form>
+                </div>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <br>
+        <br>
     <!-- Footer aplicado en cada pagina de la web -->
     <footer>Diseñado por <a href="https://www.linkedin.com/in/fernando-guzman-montes-a80b7a13b/" target="_blank" >Fernando GMontes</a> Todos los derechos reservados 2021</footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
